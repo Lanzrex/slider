@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Hompage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="navigator.css">
+    <script src="https://kit.fontawesome.com/6a0d8e5bed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      
+    </div>
+    
+        <div class="toggle-btn" id="open" onclick="openNav()">
+            <i class="fa-solid fa-bars fa-2x"></i>  
+        </div>
+    <section class="image-slider">
+        <div class="arrow-left">
+            <i class="fa-solid fa-arrow-left fa-2x"></i>
+        </div>
+        <div class="arrow-right">
+            <i class="fa-solid fa-arrow-right fa-2x"></i>
+        </div>
+        <div class="caption">
+            <h1>New York, USA</h1>
+            <P>The city that never sleeps.</P>
+        </div>
+    </section>
+    <script src= "slider.js"></script>
+</body>
+</html>
